@@ -1,0 +1,97 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #f9f9fb;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.navbar {
+  background-color: #2D9CDB;
+}
+
+.nav-link, .navbar-brand {
+  color: white !important;
+  font-weight: 600;
+}
+
+.hero {
+  background: linear-gradient(135deg, #2D9CDB, #9B51E0);
+  color: white;
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.card {
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+footer {
+  background-color: #2D9CDB;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+  margin-top: 40px;
+  flex-shrink: 0;
+}
+
+footer .row > div {
+  word-break: break-word;
+}
+
+main.flex-grow-1 {
+  flex: 1 0 auto;
+}
+
+.btn-primary {
+  background-color: #27AE60;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #219150;
+}
+
+.progress {
+  height: 25px;
+  border-radius: 20px;
+}
+
+.badge-medalha {
+  font-size: 1.2rem;
+  padding: 10px;
+  border-radius: 10px;
+  display: inline-block;
+  margin: 5px;
+}
+
+.medalha-ouro {
+  background-color: #FFD700;
+  color: #000;
+}
+
+.medalha-prata {
+  background-color: #C0C0C0;
+  color: #000;
+}
+
+.medalha-bronze {
+  background-color: #CD7F32;
+  color: #fff;
+}
+
+iframe {
+  border: none;
+  width: 100%;
+  height: 500px;
+  
+}
