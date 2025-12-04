@@ -27,7 +27,6 @@ function resetarProgresso() {
   }
 }
 
-// Questionario pagina Cidadania Digital
 document.addEventListener("DOMContentLoaded", function () {
   atualizarProgresso();
   mostrarMedalhas();
@@ -101,7 +100,6 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 });
 
-// QUIZ FINAL — Exploradores da Internet
 document.addEventListener("DOMContentLoaded", function () {
   const quizFinalContainer = document.getElementById("quizFinal-container");
   if (!quizFinalContainer) return; 
@@ -213,7 +211,7 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
-// ATIVIDADE 2: DESAFIO "MINHA ATITUDE DIGITAL"
+
 function avaliarDesafio() {
   const resposta = document.getElementById("respostaDesafio").value.trim();
   const feedback = document.getElementById("feedbackDesafio");
@@ -227,7 +225,7 @@ function avaliarDesafio() {
   adicionarPontos(20);
 }
 
-// MEDALHAS E PAINEL DE CONQUISTAS
+
 function mostrarMedalhas() {
   const container = document.getElementById("medalhas");
   if (!container) return;
