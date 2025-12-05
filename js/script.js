@@ -28,8 +28,8 @@ function resetarProgresso() {
 }
 
 document.addEventListener("DOMContentLoaded", function () {
-  atualizarProgresso();
-  mostrarMedalhas();
+  //atualizarProgresso();
+  //mostrarMedalhas();
 
   const perguntas = [
     {
